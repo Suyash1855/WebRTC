@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'Rocher';
+    src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+}
+@font-palette-values --titletext{
+    font-family: Rocher;
+    base-palette: 7;
+  }
+header {
+    font-family: 'Rocher';
+    text-align: center;
+    font-size  : 2em;
+    font-palette: --titletext;
+}

@@ -1,0 +1,36 @@
+body {
+    min-height: 100vh;
+    background: url('bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+main {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.post-body {
+margin-top: 2em;
+width: 50vw;
+
+background: rgba(113, 105, 205, 0.263);
+color: white;
+border: 2px solid rgba(255,255,255,.3);
+border-radius: 10px;
+backdrop-filter: blur(30px);
+box-shadow: 0 0 10px rgba(0 , 0,0,0.2);
+}
+.post-body input{
+    background: transparent;
+    border-radius: 40px;
+    color: white;
+}
+.post-body textarea{
+    background-color: transparent;
+    border-radius: 20px;
+    color: white;
+}
+.post-body input::placeholder{
+   color: white;
+}

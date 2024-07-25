@@ -1,0 +1,17 @@
+.display-1{
+    display: flex;
+    justify-content: center;
+}
+
+.para{
+    background-color: antiquewhite;
+    padding: 10% 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 15%;
+}
+.display-6{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
